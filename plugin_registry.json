@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "mpm_importer",
+      "display_name": "MPM Importer",
+      "description": "从 Unity 导出的 MPM 文件导入组件到 Godot 项目中。支持 AnimatorPlayer、CameraTrigger、MovingPosMax 等组件导入。",
+      "author": "godotline",
+      "github_owner": "godotline",
+      "github_repo": "mpm_importer",
+      "branch": "main",
+      "sub_dir": "addons/mpm_importer",
+      "dest_path": "res://addons/mpm_importer",
+      "version": "1.0",
+      "homepage": "https://github.com/godotline/mpm_importer",
+      "min_godot_version": "4.7"
+    }
+  ]
+}
