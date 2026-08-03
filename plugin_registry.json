@@ -14,6 +14,20 @@
       "version": "1.0",
       "homepage": "https://github.com/godotline/mpm_importer",
       "min_godot_version": "4.7"
+    },
+    {
+      "id": "godotline_advanced_components",
+      "display_name": "GodotLine Advanced Components",
+      "description": "GodotLine 模板项目的编辑器组件添加面板，支持基础对象、BaseTrigger 触发器组件和路径移动等工具。",
+      "author": "MuYunShinn, Meny233",
+      "github_owner": "godotline",
+      "github_repo": "plugin-advanced-components",
+      "branch": "main",
+      "sub_dir": "addons/godot_line",
+      "dest_path": "res://addons/godot_line",
+      "version": "2.3.238",
+      "homepage": "https://github.com/godotline/plugin-advanced-components",
+      "min_godot_version": "4.7"
     }
   ]
 }
