@@ -52,6 +52,31 @@
         ],
         "md5": "bc0168afc5c8d66e3ead242f1a0a1551",
         "min_template_version": "2.3.246"
+      },
+      {
+        "id": "unidot_importer",
+        "display_name": "Unidot Importer",
+        "description": "由 Meny 适配到 Godot 4.7 的 Unity 资源导入插件。支持 .unitypackage、场景、预制体、动画、模型和材质等资源转换。",
+        "author": "Meny",
+        "github_owner": "godotline",
+        "github_repo": "plugin_unidot_importer",
+        "branch": "v1.1.0",
+        "sub_dir": "addons/unidot_importer",
+        "dest_path": "res://addons/unidot_importer",
+        "version": "1.1.0",
+        "homepage": "https://github.com/godotline/plugin_unidot_importer",
+        "min_godot_version": "4.7",
+        "download_urls": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/godotline/plugin_unidot_importer/archive/refs/tags/v1.1.0.zip"
+          },
+          {
+            "name": "Codeload",
+            "url": "https://codeload.github.com/godotline/plugin_unidot_importer/zip/refs/tags/v1.1.0"
+          }
+        ],
+        "md5": "23663e753a3ad818da00dde0dc912560"
       }
     ]
   }
