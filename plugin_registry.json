@@ -57,7 +57,7 @@
         "id": "unidot_importer",
         "display_name": "Unidot Importer",
         "description": "由 V-Sekai 原作、meny233 适配到 Godot 4.7 的 Unity 资源导入插件。支持 .unitypackage、场景、预制体、动画、模型和材质等资源转换。",
-        "author": "V-Sekai, meny233",
+        "author": "V-Sekai, Lyuma, meny233",
         "github_owner": "godotline",
         "github_repo": "plugin_unidot_importer",
         "branch": "v1.1.0",
