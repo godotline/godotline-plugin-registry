@@ -77,6 +77,31 @@
           }
         ],
         "md5": "23663e753a3ad818da00dde0dc912560"
+      },
+      {
+        "id": "unitylike_timeline",
+        "display_name": "Unity-like Timeline",
+        "description": "Unity Timeline 风格的 Godot 4 时间线系统。包含编辑器面板、运行时 Director 和自定义轨道扩展 API。支持 Fog、Environment、Material、Bloom、DepthOfField 等 9 种轨道。",
+        "author": "Meny",
+        "github_owner": "godotline",
+        "github_repo": "plugin-unitylike-timeline",
+        "branch": "v0.1.0",
+        "sub_dir": "addons/timeline",
+        "dest_path": "res://addons/timeline",
+        "version": "0.1.0",
+        "homepage": "https://github.com/godotline/plugin-unitylike-timeline",
+        "min_godot_version": "4.7",
+        "download_urls": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/godotline/plugin-unitylike-timeline/archive/refs/tags/v0.1.0.zip"
+          },
+          {
+            "name": "Codeload",
+            "url": "https://codeload.github.com/godotline/plugin-unitylike-timeline/zip/refs/tags/v0.1.0"
+          }
+        ],
+        "md5": "63aae856d57205693ed4acd685bb97fc"
       }
     ]
   }
