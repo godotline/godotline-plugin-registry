@@ -89,6 +89,7 @@
         "sub_dir": "addons/timeline",
         "dest_path": "res://addons/timeline",
         "version": "0.1.0",
+        "status": "unfinished",
         "homepage": "https://github.com/godotline/plugin-unitylike-timeline",
         "min_godot_version": "4.7",
         "download_urls": [
