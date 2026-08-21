@@ -34,23 +34,23 @@
       "author": "MuYunShinn, Meny233",
       "github_owner": "godotline",
       "github_repo": "plugin-advanced-components",
-      "branch": "v0.1.1",
+      "branch": "v0.1.2",
       "sub_dir": "addons/godot_line",
       "dest_path": "res://addons/godot_line",
-      "version": "2.3.247",
+      "version": "2.3.248",
       "homepage": "https://github.com/godotline/plugin-advanced-components",
       "min_godot_version": "4.7",
       "download_urls": [
         {
           "name": "GitHub",
-          "url": "https://github.com/godotline/plugin-advanced-components/archive/refs/tags/v0.1.1.zip"
+          "url": "https://github.com/godotline/plugin-advanced-components/archive/refs/tags/v0.1.2.zip"
         },
         {
           "name": "Codeload",
-          "url": "https://codeload.github.com/godotline/plugin-advanced-components/zip/refs/tags/v0.1.1"
+          "url": "https://codeload.github.com/godotline/plugin-advanced-components/zip/refs/tags/v0.1.2"
         }
       ],
-      "md5": "eefde68399d690beddd1dff7e0da1c9b",
+      "md5": "cbaaef74cd4b608007a87749e2d90751",
       "min_template_version": "2.3.246"
     },
     {
