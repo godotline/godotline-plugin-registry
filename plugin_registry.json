@@ -179,7 +179,7 @@
     {
       "id": "arphros_importer",
       "display_name": "Arphros Importer",
-      "description": "导入 Arphros 导出的关卡工程包（level.arproj 及 Resources/）到 GodotLine 项目中，自动生成关卡场景与 LevelData 资源，支持模型贴图自动加载与触发器参数解析。",
+      "description": (!!!会上传Arplay到云端进行解析)导入 Arphros 导出的关卡工程包（level.arproj 及 Resources/）到 GodotLine 项目中，自动生成关卡场景与 LevelData 资源，支持模型贴图自动加载与触发器参数解析。",
       "author": "大豆子",
       "github_owner": "godotline",
       "github_repo": "plugin_arphros_importer",
