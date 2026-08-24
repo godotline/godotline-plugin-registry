@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "plugins": [
     {
       "id": "mpm_importer",
@@ -12,6 +12,7 @@
       "sub_dir": "addons/mpm_importer",
       "dest_path": "res://addons/mpm_importer",
       "version": "1.0.0",
+      "updated_at": "2026-06-13",
       "homepage": "https://github.com/godotline/plugin_mpm_importer",
       "min_godot_version": "4.7",
       "download_urls": [
@@ -25,7 +26,16 @@
         }
       ],
       "md5": "f57cf78f36a7eb001400794c42b45c0c",
-      "min_template_version": "2.3.246"
+      "recommended_template_version": "2.3.246",
+      "changelog": [
+        {
+          "version": "0.1.0",
+          "date": "2026-06-13",
+          "notes": [
+            "首个发布版本：从 Unity 导出的 MPM 文件导入组件，支持 AnimatorPlayer、CameraTrigger、MovingPosMax 等。"
+          ]
+        }
+      ]
     },
     {
       "id": "godotline_advanced_components",
@@ -38,6 +48,7 @@
       "sub_dir": "addons/godot_line",
       "dest_path": "res://addons/godot_line",
       "version": "2.3.249",
+      "updated_at": "2026-08-21",
       "homepage": "https://github.com/godotline/plugin-advanced-components",
       "min_godot_version": "4.7",
       "download_urls": [
@@ -51,7 +62,46 @@
         }
       ],
       "md5": "7ee5571912f6531786dc122609715b44",
-      "min_template_version": "2.3.246"
+      "recommended_template_version": "2.3.246",
+      "changelog": [
+        {
+          "version": "0.1.4",
+          "date": "2026-08-21",
+          "notes": [
+            "同步 plugin.cfg 版本号至 2.3.249。"
+          ]
+        },
+        {
+          "version": "0.1.3",
+          "date": "2026-08-21",
+          "notes": [
+            "组件改用 script.new() 实例化，节点类型由脚本基类决定（Node/Node3D）。",
+            "修复 Invalid owner：在 add_child 之后递归设置 owner。"
+          ]
+        },
+        {
+          "version": "0.1.2",
+          "date": "2026-08-21",
+          "notes": [
+            "修复 CameraTrigger 引用：指向新的模式 1 组件 Camera/CameraTrigger。",
+            "修复组件节点 owner 未设置导致保存后丢失的问题。"
+          ]
+        },
+        {
+          "version": "0.1.1",
+          "date": "2026-08-21",
+          "notes": [
+            "移除文字检查点（TTFCheckPoint）组件。"
+          ]
+        },
+        {
+          "version": "0.1.0",
+          "date": "2026-08-03",
+          "notes": [
+            "首个发布版本：编辑器组件添加面板，支持基础对象、BaseTrigger 触发器组件与路径移动工具。"
+          ]
+        }
+      ]
     },
     {
       "id": "unidot_importer",
@@ -64,6 +114,7 @@
       "sub_dir": "addons/unidot_importer",
       "dest_path": "res://addons/unidot_importer",
       "version": "1.1.0",
+      "updated_at": "2026-08-09",
       "homepage": "https://github.com/godotline/plugin_unidot_importer",
       "min_godot_version": "4.7",
       "download_urls": [
@@ -76,7 +127,17 @@
           "url": "https://codeload.github.com/godotline/plugin_unidot_importer/zip/refs/tags/v1.1.0"
         }
       ],
-      "md5": "23663e753a3ad818da00dde0dc912560"
+      "md5": "23663e753a3ad818da00dde0dc912560",
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-08-09",
+          "notes": [
+            "V-Sekai 原作 Unidot Importer 的 Godot 4.7 适配版。",
+            "支持 .unitypackage、场景、预制体、动画、模型与材质导入。"
+          ]
+        }
+      ]
     },
     {
       "id": "unitylike_timeline",
@@ -89,6 +150,7 @@
       "sub_dir": "addons/timeline",
       "dest_path": "res://addons/timeline",
       "version": "0.1.0",
+      "updated_at": "2026-08-16",
       "homepage": "https://github.com/godotline/plugin-unitylike-timeline",
       "min_godot_version": "4.7",
       "download_urls": [
@@ -101,7 +163,18 @@
           "url": "https://codeload.github.com/godotline/plugin-unitylike-timeline/zip/refs/tags/v0.1.0"
         }
       ],
-      "md5": "164a9a17bb5f2f5ecbbea9ef17111d14"
+      "md5": "164a9a17bb5f2f5ecbbea9ef17111d14",
+      "changelog": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-16",
+          "notes": [
+            "首个预览版本：Unity Timeline 风格编辑器面板与运行时 Director。",
+            "支持轨道/片段 Inspector 编辑、选中节点自动切换 Dock、Undo/Redo 刷新等。",
+            "包含 Fog、Environment、Material、Bloom、DepthOfField 等 9 种轨道。"
+          ]
+        }
+      ]
     },
     {
       "id": "dancing_line_importer",
@@ -114,6 +187,7 @@
       "sub_dir": "addons/dancing_line_importer",
       "dest_path": "res://addons/dancing_line_importer",
       "version": "1.4.0",
+      "updated_at": "2026-08-23",
       "homepage": "https://github.com/godotline/plugin_dancing_line_importer",
       "min_godot_version": "4.7",
       "download_urls": [
@@ -127,7 +201,31 @@
         }
       ],
       "md5": "51fa75d7c093dcb4b4f8a9c89a372bd9",
-      "min_template_version": "2.3.246"
+      "recommended_template_version": "2.3.246",
+      "changelog": [
+        {
+          "version": "1.4.0",
+          "date": "2026-08-23",
+          "notes": [
+            "新增 StopTrigger(type 14) 与 Animatable 组件。",
+            "OBJ 导入剥除 mtllib；修复子物体缩放层级。"
+          ]
+        },
+        {
+          "version": "1.3.0",
+          "date": "2026-08-23",
+          "notes": [
+            "导入器支持 X 轴左右镜像；修复音频资源重导入问题。"
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-08-22",
+          "notes": [
+            "同步 Arphros 导入器：Teleport/Sequence 触发器、圆柱图元、镜像缩放与 arplay 提取支持。"
+          ]
+        }
+      ]
     }
   ]
 }
