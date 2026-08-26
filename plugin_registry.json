@@ -183,26 +183,37 @@
       "author": "大豆子",
       "github_owner": "godotline",
       "github_repo": "plugin_arphros_importer",
-      "branch": "v2.0.0",
+      "branch": "v2.1.0",
       "sub_dir": "addons/plugin_arphros_importer",
       "dest_path": "res://addons/plugin_arphros_importer",
-      "version": "2.0.0",
-      "updated_at": "2026-08-24",
+      "version": "2.1.0",
+      "updated_at": "2026-08-26",
       "homepage": "https://github.com/godotline/plugin_arphros_importer",
       "min_godot_version": "4.7",
       "download_urls": [
         {
           "name": "GitHub",
-          "url": "https://github.com/godotline/plugin_arphros_importer/archive/refs/tags/v2.0.0.zip"
+          "url": "https://github.com/godotline/plugin_arphros_importer/archive/refs/tags/v2.1.0.zip"
         },
         {
           "name": "Codeload",
-          "url": "https://codeload.github.com/godotline/plugin_arphros_importer/zip/refs/tags/v2.0.0"
+          "url": "https://codeload.github.com/godotline/plugin_arphros_importer/zip/refs/tags/v2.1.0"
         }
       ],
-      "md5": "a623bc6f558aad24c43c2bc2127a04f4",
+      "md5": "c7ecaaa78b61eeade6dfa07526369582",
       "recommended_template_version": "2.3.246",
       "changelog": [
+        {
+          "version": "2.1.0",
+          "date": "2026-08-26",
+          "notes": [
+            "导入面板新增「帧预算」配置（默认 250ms，范围 20~1000），大关卡构建提速且可按需调整编辑器卡顿。",
+            "复制资源前检查目标已存在且源未更新则跳过，避免每次选文件夹重写贴图模型触发反复重导入。",
+            "对复制的 .obj 做兼容清洗：剥除缺失 .mtl 的 mtllib 行、修正越界的面索引，消除 Couldn't open MTL 与 Index out of bounds 报错。",
+            "Visibility 触发器支持分组号（第 4 段）按组匹配，目标路径用真实相对路径，修复旧版裸 id 路径打不中问题。",
+            "修正模型网格镜像：根节点承载符号缩放后网格子节点不再额外翻转，非对称模型渲染正确。"
+          ]
+        },
         {
           "version": "2.0.0",
           "date": "2026-08-24",
